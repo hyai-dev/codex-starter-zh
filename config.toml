@@ -1,0 +1,14 @@
+# Minimal Codex CLI config example (placeholders only — no real keys).
+# Copy to the path your Codex version documents (often ~/.codex/config.toml).
+# Docs change by version: verify with `codex --help` / official CLI reference.
+
+# model = "gpt-5.1-codex"   # example placeholder; use a model your account can access
+# provider = "openai"      # or a custom provider name you configure below
+
+# [providers.openai]
+# # Prefer `codex login` (ChatGPT) when that matches your workflow.
+# # API key auth is a separate billing path — do not paste production secrets here.
+# # api_key = "sk-REPLACE_ME"
+
+# Optional: project instructions file (see AGENTS.md in this repo).
+# Keep secrets out of the repo; use environment variables or the official login flow.

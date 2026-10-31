@@ -1,0 +1,6 @@
+.auth/
+*.pem
+.env
+.env.*
+auth.json
+**/secrets*
